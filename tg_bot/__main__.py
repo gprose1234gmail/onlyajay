@@ -146,13 +146,13 @@ def start(bot: Bot, update: Update, args: List[str]):
                                                                                    [InlineKeyboardButton(text="ADD ONLY AJAY TO YOUR GROUP",
                                                                        url="t.me/{}?startgroup=true".format(bot.username)),
                                                                                     InlineKeyboardButton(text="public chating group", url="https://t.me/Tamil_Friendship_Group"),
-
+                                                                                    InlineKeyboardButton(text="Source Code",
+                                                                       url="https://github.com/gprose1234gmail/GRANDROBOT.git"),
+                                                                                 ]]))
         
 
 
-                                                                            InlineKeyboardButton(text="Source Code",
-                                                                       url="https://github.com/gprose1234gmail/GRANDROBOT.git")
-                                                                                 ]]))
+                                                                            
 
     else:
         update.effective_message.reply_text("Yuss, I am Already ONline")
